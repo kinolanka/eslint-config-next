@@ -1,6 +1,6 @@
 {
   "name": "@kinolanka/eslint-config-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config for nextjs",
   "license": "MIT",
   "keywords": [
