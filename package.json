@@ -20,16 +20,22 @@
     "index.js"
   ],
   "main": "index.js",
+  "scripts": {
+    "local-release": "changeset version && changeset publish"
+  },
   "peerDependencies": {
     "eslint": ">=8",
+    "eslint-config-next": "*",
     "prettier": ">=2",
-    "typescript": ">=4.7.0",
-    "eslint-config-next": "*"
+    "typescript": ">=4.7.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-testing-library": "^5.10.2"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.8"
   }
 }
