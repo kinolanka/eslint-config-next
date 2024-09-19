@@ -1,4 +1,4 @@
-# `@kinolanka/eslint-config`
+# `@kinolanka/eslint-config-next`
 
 > [ESLint](https://eslint.org/) config for Nextjs projects.
 
@@ -6,10 +6,8 @@
 
 **Install**:
 
-Add target version after #
-
 ```bash
-$ npm i -D https://github.com/kinolanka/eslint-config-next.git#v1.0.0
+$ npm i -D @kinolanka/eslint-config-next
 ```
 
 **Edit `.eslintrc.json`**:
